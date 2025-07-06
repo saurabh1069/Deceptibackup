@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🧠 AI Honeypot Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 30px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        h2, h3 { color: #333; }
+        form { margin-bottom: 20px; }
+        input[type="text"], button { padding: 8px; margin: 5px; }
+    </style>
+</head>
+<body>
+
+<h2>🧠 AI Honeypot Dashboard</h2>
+
+<!-- 🧠 General Summary -->
+<h3>📋 General AI Summary</h3>
+<form method="post" action="/ai/run-summary">
+    <button type="submit">📊 Run Summary</button>
+</form>
+<p><strong>Latest Summary:</strong><br>{{ summary.summary if summary else 'No summary available yet.' }}</p>
+<hr>
+
+<!-- 📊 Anomaly Detection -->
+<h3>📌 Suspicious IPs (Anomaly Scores)</h3>
+<table>
+    <tr><th>IP</th><th>Score</th><th>Reason</th><th>Time</th></tr>
+    {% for a in anomalies %}
+    <tr>
+        <td>{{ a.ip }}</td>
+        <td>{{ a.score }}</td>
+        <td>{{ a.reason }}</td>
+        <td>{{ a.timestamp }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<!-- 🤖 Behavior Labels -->
+<h3>🤖 Behavior-Based Classification</h3>
+<table>
+    <tr><th>Label</th><th>Notes</th><th>Timestamp</th></tr>
+    {% for b in behaviors %}
+    <tr>
+        <td>{{ b.label }}</td>
+        <td>{{ b.notes }}</td>
+        <td>{{ b.timestamp }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<!-- 🧠 Threat Explanation -->
+<h3>🧠 Explain a Threat by IP</h3>
+<form method="get" action="/ai/explain">
+    <input name="ip" type="text" placeholder="Enter IP address..." required>
+    <button type="submit">Explain</button>
+</form>
+{% if explanation %}
+    <p><strong>Explanation for {{ explanation.ip }}:</strong></p>
+    <p>{{ explanation.text }}</p>
+{% endif %}
+<hr>
+
+<!-- 🛠️ Decoy Page Generator -->
+<h3>🛠️ Generate a Decoy Page</h3>
+<form method="post" action="/ai/generate-decoy">
+    <input name="topic" type="text" placeholder="e.g. admin panel, db_backup">
+    <button type="submit">Generate Decoy</button>
+</form>
+{% if decoy_html %}
+    <h4>Generated HTML Preview:</h4>
+    <div style="border: 1px solid #ddd; padding: 10px; background: #fafafa;">
+        {{ decoy_html | safe }}
+    </div>
+{% endif %}
+
+</body>
+</html>

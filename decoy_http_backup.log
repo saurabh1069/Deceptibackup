@@ -1,0 +1,2 @@
+2025-07-06 15:29:44,797 - 2025-07-06T09:59:44.797590 | IP 127.0.0.1 | Attempted access to /db_backup.1560534496/ with NO auth
+2025-07-06 15:29:54,305 - 2025-07-06T09:59:54.301370 | IP 127.0.0.1 | HoneyTrap Alert: Authentication Attempt to Fake Resource. Credentials used: admin:adsfsnnsd | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0

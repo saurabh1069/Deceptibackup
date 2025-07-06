@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DeceptiCoders Dashboard</title>
+</head>
+<body>
+  <h1>Alerts Dashboard</h1>
+  <ul>
+    {% for alert in alerts %}
+      <li>{{ alert.message }} - {{ alert.timestamp }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
