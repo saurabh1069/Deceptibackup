@@ -1,0 +1,462 @@
+[{
+  "_id": {
+    "$oid": "68679b812269f6361519438e"
+  },
+  "type": "Port Scan",
+  "source": "192.168.1.99",
+  "message": "Multiple SYN packets from unknown host",
+  "timestamp": "2025-07-04 14:25:00"
+},
+{
+  "_id": {
+    "$oid": "686a2be1d1357b8f3bf403ff"
+  },
+  "timestamp": "2025-07-06T07:55:13.061134",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  }
+},
+{
+  "_id": {
+    "$oid": "686a320ff281edb832edead0"
+  },
+  "timestamp": "2025-07-06T08:21:35.123048",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": "⚠️ IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686a32d1f281edb832edead1"
+  },
+  "timestamp": "2025-07-06T08:24:49.212474",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": "⚠️ IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686a32d6f281edb832edead2"
+  },
+  "timestamp": "2025-07-06T08:24:54.686486",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Cache-Control": "max-age=0",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": "⚠️ IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686a32fb487e958165583fbc"
+  },
+  "timestamp": "2025-07-06T08:25:31.020506",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": " IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686a3304487e958165583fbd"
+  },
+  "timestamp": "2025-07-06T08:25:40.077215",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": " IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686a47db0bc7750dda46ff7c"
+  },
+  "timestamp": "2025-07-06T09:54:35.488823",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": " IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686a48d62f94ecd40013c31c"
+  },
+  "timestamp": "2025-07-06T09:58:46.878352",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": " IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686a491a2f94ecd40013c31d"
+  },
+  "timestamp": "2025-07-06T09:59:54.301370",
+  "ip": "127.0.0.1",
+  "endpoint": "/db_backup.1560534496/",
+  "credentials": {
+    "username": "admin",
+    "password": "adsfsnnsd"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+  "message": "HoneyTrap Alert: Authentication Attempt to Fake Resource. Credentials used: admin:adsfsnnsd"
+},
+{
+  "_id": {
+    "$oid": "686a52dc78b0288c0958962b"
+  },
+  "timestamp": "2025-07-06T10:41:32.146218",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/login.html",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+  "message": "Accessed fake login form with debug comment"
+},
+{
+  "_id": {
+    "$oid": "686a52e678b0288c0958962c"
+  },
+  "timestamp": "2025-07-06T10:41:42.616333",
+  "ip": "127.0.0.1",
+  "method": "POST",
+  "path": "/login.html",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+  "message": "Submitted login form with: admin:admin"
+},
+{
+  "_id": {
+    "$oid": "686a535278b0288c0958962d"
+  },
+  "timestamp": "2025-07-06T10:43:30.530231",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/login.php.bak",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+  "message": "HoneyTrap Alert: Fake HTML Comment Data Use"
+},
+{
+  "_id": {
+    "$oid": "686a541b78b0288c0958962e"
+  },
+  "timestamp": "2025-07-06T10:46:51.453235",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/login.html",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+  "message": "Accessed fake login form with debug comment"
+},
+{
+  "_id": {
+    "$oid": "686a647bb0b5fbd59ccd8930"
+  },
+  "timestamp": "2025-07-06T11:56:43.955849",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/login.html",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+  "message": "Accessed fake login page with cookie trap"
+},
+{
+  "_id": {
+    "$oid": "686a64b7b0b5fbd59ccd8931"
+  },
+  "timestamp": "2025-07-06T11:57:43.664660",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/login.html",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+  "message": "Accessed fake login page with cookie trap"
+},
+{
+  "_id": {
+    "$oid": "686a657db0b5fbd59ccd8932"
+  },
+  "timestamp": "2025-07-06T12:01:01.144034",
+  "ip": "127.0.0.1",
+  "method": "POST",
+  "path": "/login.html",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+  "message": "HoneyTrap Alert: Received login: dsgsd:sgdg | Cookie: admin=test"
+},
+{
+  "_id": {
+    "$oid": "686a7f64403e2110d471cdbf"
+  },
+  "timestamp": "2025-07-06T13:51:32.528017",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/login.html",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+  "message": "Accessed fake login form with debug comment"
+},
+{
+  "_id": {
+    "$oid": "686a8252bdf08df06ed1fa0d"
+  },
+  "timestamp": "2025-07-06T14:04:02.886218",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": " IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686a826bbdf08df06ed1fa0e"
+  },
+  "timestamp": "2025-07-06T14:04:27.750732",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Cache-Control": "max-age=0",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cookie": "admin=test"
+  },
+  "message": " IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686b54790efb123d3ad28be2"
+  },
+  "timestamp": "2025-07-07T05:00:41.629739",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": " IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686b57ec0efb123d3ad28be3"
+  },
+  "timestamp": "2025-07-07T05:15:24.324000",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": " IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686b69644e75ce49467872ec"
+  },
+  "timestamp": "2025-07-07T06:29:56.580049",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/",
+  "headers": {
+    "Host": "127.0.0.1:8888",
+    "Connection": "keep-alive",
+    "Sec-Ch-Ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Microsoft Edge\";v=\"138\"",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,en-IN;q=0.8"
+  },
+  "message": " IP 127.0.0.1 tried reaching fake decoy port"
+},
+{
+  "_id": {
+    "$oid": "686b69aa4e75ce49467872ed"
+  },
+  "timestamp": "2025-07-07T06:31:06.321095",
+  "ip": "127.0.0.1",
+  "method": "GET",
+  "path": "/login.html",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+  "message": "Accessed fake login page with cookie trap"
+}]
